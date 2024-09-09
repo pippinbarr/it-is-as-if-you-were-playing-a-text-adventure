@@ -9,16 +9,7 @@
 "use strict";
 
 // Some dummy data to get started
-const data = [
-    {
-        "input": "look",
-        "points": 0
-    },
-    {
-        "input": "jump",
-        "points": 1
-    }
-];
+let data = undefined;
 // Which node are we in? Unsure this is the right way yet.
 let current = undefined;
 // For tracking points if we want to, seems funny
@@ -28,29 +19,61 @@ let points = 0;
 const historyElement = document.getElementById("history");
 const pointsElement = document.getElementById("points");
 const inputElement = document.getElementById("input");
+const locationElement = document.getElementById("location");
 
-// We want to know when they type in our input box
-inputElement.addEventListener("keydown", processInput);
+// The player
+const player = {
+    location: undefined,
+    inventory: []
+};
 
-// Let's go!
-nextPrompt();
+fetch("data/en.json")
+    .then(response => response.json())
+    .then(json => {
+        data = json;
+        start();
+    });
+
+function start() {
+    document.getElementById("title").textContent = data["title"];
+    document.getElementById("author").textContent = data["author"];
+    document.getElementById("release-nonsense").textContent = data["release-nonsense"];
+
+    // We want to know when they type in our input box
+    inputElement.addEventListener("keydown", processInput);
+
+    // Put the player in the start location
+    player.location = data["start-location"];
+    locationElement.textContent = data.rooms[player.location].name;
+
+    // Let's go!
+    nextInput();
+}
 
 /**
- * Chooses a random node and displays it
+ * Chooses what the player should do next
  */
-function nextPrompt() {
-    current = randomElement(data);
-    displayPrompt();
+function nextInput() {
+    if (Math.random() < 0.2) {
+        // Choose an exit
+        current = randomElement(data.rooms[player.location].exits);
+    }
+    else {
+        // Choose an action
+        current = randomElement(data.rooms[player.location].actions);
+    }
+
+    displayState();
 }
 
 /**
  * Resets the input and adds the current instruction
  */
-function displayPrompt() {
+function displayState() {
     inputElement.value = "";
-    const instruction = `Type "${current.input}" and press ENTER.`;
+    const command = `Type "${current.command}" and press ENTER.`;
     const p = document.createElement("p");
-    p.textContent = instruction;
+    p.textContent = command;
     historyElement.appendChild(p);
 }
 
@@ -62,16 +85,19 @@ function processInput(event) {
     // Did they just hit enter?
     if (event.keyCode === 13) {
         // Check if they typed the right thing...
-        if (inputElement.value.toLowerCase() === current.input) {
+        if (inputElement.value.toLowerCase() === current.command) {
             // Yes? Add the points
-            points += current.points;
+            points += current.points || 0;
             pointsElement.textContent = points;
+            // Move if it was a move
+            player.location = current.to || player.location;
+            locationElement.textContent = data.rooms[player.location].name;
             // And choose the next thing to type
-            nextPrompt();
+            nextInput();
         }
         else {
             // If they typed the wrong thing, reiterate the current node
-            displayPrompt();
+            displayState();
         }
     }
 }
