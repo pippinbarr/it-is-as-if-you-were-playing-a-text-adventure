@@ -25,3 +25,24 @@ Oh also, I suppose some kind of statistical likelihood thing may make sense? Bec
 And some way of creating some more specific "reaction" suggestions for the user? So that they seem a bit more relevant? Shocks versus boredom etc.? Annoyance?
 
 And can you win? It would be really funny if you could technically win?
+
+## Further thoughts -- Sunday 8 September 2024
+
+I spent some more time with this this evening and it's now crossed some kind of threshold where it both seems real (I have two locations, a few commands available) but where it also starts to seem like the contortions involved in a more "simulation" approach may not be all that fun and nor all that important?
+
+There is tension - probably interesting, probably worth reflecting on - between creating something more procedural (leaning more into the "truth" of parser-based IF I guess?) and something more (or totally) linear (leaning more into the nature of story telling).
+
+When I actually "play" what I have so far I think the thing that gives me the best little thrill is, well, just any command input, but especially changing locations (and seeing the location acknowledged in the menu bar) and picking something up... because those are moments where you really feel like you act on the world (unlike looking etc.).
+
+I feel like getting a "realistic" representation of the command sequence in the simulation version might just be too hard and it might seem too weird without it? Like how do you reproduce the idea that if you enter a room you almost always "look", but not all the time. Or how when you pick something up you might look at it. Or how you often try using all your items on a specific situation.
+
+And it's not even totally about realism there, but also about the narrative potential of those things too? Or of just being able to communicate a state of play... the story of playing sitting on top of the story itself...
+
+So I'm perhaps just talking myself into a version where:
+
+- It's linear... you will just be typing in a set of instructions (which, I mean, who is ever going to replay this!)
+- But it includes triggers around location, points, and anything else that could make sense to sort of reflect action through the UI
+
+I briefly thought I'd need an inventory, but I suppose not actually. I'd need to keep track of it personally though.
+
+Hmmm. Yeah well I think I just plow on with the linear version as my next thing, maybe just string together 10-20 commands including a location change to get a sense of what that would feel like? Maybe look at some walkthroughs of *good* IF to see how many commands etc. it might make sense to have? Start stockpiling forms that might be in there ("ask X about Y" for example).
