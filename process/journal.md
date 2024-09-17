@@ -46,3 +46,20 @@ So I'm perhaps just talking myself into a version where:
 I briefly thought I'd need an inventory, but I suppose not actually. I'd need to keep track of it personally though.
 
 Hmmm. Yeah well I think I just plow on with the linear version as my next thing, maybe just string together 10-20 commands including a location change to get a sense of what that would feel like? Maybe look at some walkthroughs of *good* IF to see how many commands etc. it might make sense to have? Start stockpiling forms that might be in there ("ask X about Y" for example).
+
+## Reminding myself of where I am -- Monday 16 September 2024
+
+Yes, it has been eight days. Sosumi. It would be nice to round the corner into an understanding of what the screen itself needs so that I can "just" write the thing. If it's linear is the point to also pre-write all the "reaction" stuff, or should that be drawn from a pool? Or... really, why do that? Might as well use the reactions as a way to further communicate about what might be happening.
+
+The biggest question to me ultimately become: how much do *I* need to know about what is "really happening" both in the sense of the overarching story being told and the structuring of the parser-based IF that's telling it?
+
+I do like that this is yet another different take on the use of "It is as if" though. Speculative fiction, looking smart on the metro, ... narrative vehicle...
+
+Well but how do I write this then? I suppose first approximation is that each beat needs data, the same data... which would amount to what?
+
+- Input (what they should type)
+- Reaction (how they should "act", including instructions on how much to read? Or text padding that lets them read "the right amount"? A shape...)
+- Location (to display)
+- Points (to add)
+
+Plausibly something else? But also I suppose I should take a look at some walk throughs and some actual IF as some point soon. Maybe that's tonight's little job? Or is it just to put together a teeny draft of the above so I can see what that looks like? Or both, let's see.
