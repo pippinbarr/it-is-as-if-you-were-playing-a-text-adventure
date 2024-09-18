@@ -50,6 +50,9 @@ function start() {
     // Set the starting location
     locationElement.textContent = meta.startLocation;
 
+    // Get that cursor blinking!
+    inputElement.focus();
+
     // Let's go!
     nextInput();
 }
@@ -86,6 +89,11 @@ function displayState() {
     // Prompt the command
     const command = `Type "${story[index].command}" and press ENTER.`;
     addP(command);
+
+    // Get that cursor blinking!
+    inputElement.focus();
+
+    window.scrollTo(0, document.body.scrollHeight);
 }
 
 /**
@@ -109,29 +117,26 @@ function addP(html, style) {
 function processInput(event) {
     // Did they just hit enter?
     if (event.keyCode === 13) {
+        addP(`> <strong>${inputElement.value}</strong>`);
+
+        // Clear the input
+        clearInput();
+
         // Check if they typed the right thing...
         if (inputElement.value.toLowerCase() === story[index].command) {
             // Yes? Add the points
             points += story[index].points || 0;
             pointsElement.textContent = points;
 
-            // Clear the input
-            clearInput();
-
-            setTimeout(() => {
-                // Display the reaction
-                addP(story[index].reaction, "reaction");
-
-                setTimeout(() => {
-                    // And choose the next thing to type
-                    nextInput();
-                }, 1000);
-            }, 1000);
-
+            // And choose the next thing to type
+            nextInput();
         }
         else {
-            // If they typed the wrong thing, reiterate the current node
-            displayState();
+            // If they typed the wrong thing, reiterate the current command
+            // Prompt the command
+            const command = `${meta.typo}. Type "${story[index].command}" and press ENTER.`;
+            addP(command);
+
         }
     }
 }
