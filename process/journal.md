@@ -63,3 +63,33 @@ Well but how do I write this then? I suppose first approximation is that each be
 - Points (to add)
 
 Plausibly something else? But also I suppose I should take a look at some walk throughs and some actual IF as some point soon. Maybe that's tonight's little job? Or is it just to put together a teeny draft of the above so I can see what that looks like? Or both, let's see.
+
+## Time passes -- Monday 14 April 2025
+
+Yes it does yes it does. This project was reactivated in my mind because:
+
+- I'm doing this *The Designer Is Present* thing with AMAZE this year and I "need" an *It is as if* game to be working on while I'm there
+- Csonger specifically inquired about this project because it's kind of a rare "abandoned" one? But it was only sleeping...
+- I'm also (pleasantly) "on the hook" to make a "game poem" for a publication thing that Jordan Magnuson is doing and it occurred to me that Text Adventure is a good option for that, especially in combination with Michael B's *Cornerstone*
+
+All this came together when I was sitting down thinking about the "what next". So in Things I wrote:
+
+```
+It is as if you were playing a text adventure
+As poetry 
+Read Michael B
+Write a lot of poems
+Maybe in that world (or jumping from there)
+Arrange them to imply a trajectory through a game
+The idea of could have been otherwise
+Talismanic objects
+Obtuse npcs
+Implied puzzles
+Repetitions, typos, human elements
+Can the act of playing and typing also fit into the frame?
+Don’t forget to put this in the docs 
+```
+
+So there are some design leads there too as I try to spin up.
+
+Not on this list but underway is a conversation with Michael B about his feelings about me doing this and especially about me doing this publically. Right now he's just "Michael B"ing his way around in this docs, but if I got serious I'd want to include the notes I'm taking on *Cornerstone* etc.
