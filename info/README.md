@@ -10,7 +10,7 @@
 
 *...*
 
-*It is as if you were playing a text adventure* is an attempt to tell a story through the user-interface of a classic parser-based text adventure.
+*It is as if you were playing a text adventure* is an attempt to tell a story through the user-interface of a classic parser-based text adventure. It takes [Michael Berto's novella *Cornerstone*](https://pawsmenu.itch.io/cornerstone) as its jumping off point.
 
 ## Documentation
 

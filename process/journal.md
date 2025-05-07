@@ -118,3 +118,303 @@ So those are two quite practical elements. So practical that one could imagine j
 Well the obvious thing is to start trying to play myself in. I have a bunch of notes about the novella from a new reading. I have a glimpse of a setting and even of a key dramatic moment in the story (an evacuation), but not much more. I could try to imagine some fundamental beats and how they'd fit into a text adventure, maybe I need at least the three "acts" in order to comprehend things a little better?
 
 Yeah. And I guess... I just do that "secretly" with a folder in the .gitignore for now.
+
+(With the release of Cornerstone I've moved the "secret" journal back to public.)
+
+## 2025-04-22
+
+Alright. Well, let's journal where we can actually talk about what we really want to do, think about plots think about beats think about writing my way into a paper bag
+
+### Janitor
+
+I'm halfway serious about a Janitor character. It's maybe a bit too close to Control? But someone who works at the House of Peacocks and who isn't mentioned. A staffmember in essence.
+
+I've written a number of poems about the Janitor over the last while, e.g.
+
+```
+We’ve got
+
+More time
+
+To fall in love
+
+Before the janitor
+
+Comes by
+
+And rushes us down the hall
+
+On the top of his mop
+```
+
+Which is not to say they're directly helpful but I'm just trying to conjure up some ideas about janitors for now.
+
+### House of Peacocks
+
+Feels like a useful setting for me. It's where the Warehouse *is* (in the basement). But it's not inside the warehouse (I don't think???). It's not overly described in the book so I'd think there's more leeway to move around in and outside the manor doing text adventure stuff.
+
+### Text adventure stuff
+
+What do you actually do in a text adventure? Largely you solve puzzles in order to progress through space (and time?). Not much more than that. Largely you solve the puzzles by moving between spaces, finding and using items. Sometimes in specific sequences. At it's most basic you find a key in room C than unlocks a door in room B and gets you to room A or whatever.
+
+And as well as that there's a world and maybe a "story" involved.
+
+### Peacock
+
+There's a white peacock that's important. The janitor could look for it or help it out. There's a weird vague sense I had on the last reading (from the chapter title) that somehow the peacock contained the warehouse. But surely not. But. Anyway it's a nicely iconic and striking element that isn't developed and yet is central.
+
+### Overdoing it
+
+How deep down this hole of a thing do I want to really really go? It's pointless to imagine making something Great or even Good, but how much effort do I want to put into it? Enough to at least have a sense of how practical/real it is to tell a story through actions and items right? And not more. It could fail miserably but if there's the ghost of an image of this being a plausible storytelling technique then I'd say job well done?
+
+### The port
+
+There's a port. Another potential location.
+
+### The basement
+
+There's a basement with The Warehouse inside it. I can't imagine my janitor/person getting access to it. Feels like it would be very controlled. In the novella someone lays their hands on the wall and it opens. The janitor *could* be intrigued and go and look at the wall. The wall could be accessible, but not openable. 
+
+### Rooms in a house
+
+A manor has many rooms. Many places for something to happen.
+
+### Driving the actions
+
+Well so what is the janitor/J trying to do? A story has motivations and so on doesn't it? How do stories work again? Does that really matter, old school film school driving action? Or can-should it be a more experimental story in the first place, less clearly driven, more exploratory? That would be fine.
+
+Blue Prince kind of provides some potentially interesting glimpses of ideas. As does Gormenghast. As do other references.
+
+### Out of Control?
+
+In keeping with the book's approach should a Janitor in the game be more of a symbollic character, less of a real person? As in, a Janitor is somebody who cleans up, behind the scenes, patient. Potentially very powerful if we think of these things cosmically (as in Control).
+
+It does not have to be a janitor. But it could be. But maybe the Control thing gives me some pause. Too close? Just close enough?
+
+### Text adventure stuff 2
+
+Thinking about text adventure affordances by taking the basic categories from the Inform 7 manual.
+
+#### Rooms
+
+I should draw a map of interconnected spaces - maybe set that early and not worry about it further
+
+#### Items/things
+
+I should make a list of relevant objects or kinds of objects, position them in the rooms? Or not really, but there'...
+
+Well maybe I should really have a set of prompts as I "play into" the game. Where, what(items), who, how, etc... and use that to get specific (in the right way) about what's going on.
+
+#### Actions
+
+> With no extra effort on your part, the player will be able to move from place to place, examine objects, pick them up, take inventory, drop objects that are being carried, put objects on top of supporters or in containers, open and close doors, wear and remove clothing, unlock or lock things that are locked, and so on.
+[Inform 7 Manual](https://inform-7-handbook.readthedocs.io/en/latest/chapter_4_actions/built-in_actions/#:~:text=With%20no%20extra%20effort%20on,are%20locked%2C%20and%20so%20on.)
+
+So there are all the defaults, and maybe even keeping within them is not the world's worth idea. Or maybe a few very specialized ones.
+
+#### Characters
+
+Could our person meet or at least see people from the novella? Maybe just in passing and they disappear (such as down the stairs to the basement). The peacocks. The white peacock.
+
+#### Puzzles
+
+Inform manual literally has a list of [possible puzzle scenarios](https://inform-7-handbook.readthedocs.io/en/latest/chapter_6_puzzles/puzzles/). 
+
+#### Time
+
+#### Hint system
+
+#### Dying
+
+#### Saving, loading, restarting
+
+#### Mistakes
+
+That you reload from. Typoes that go unrecognized.
+
+#### 🤔
+
+You know, writing "from" the Inform 7 manual isn't the worstest idea. Or using it to create a weird ontology of the world and then going from there.
+
+Reading a simple guide on how to create a text adventure would not be dumb.
+
+### Arc
+
+Come on, come up with a silly arc right now. Just to try it. Doesn't need to be dramatically interesting.
+
+1. Basic job requirements; the project
+
+We carry out standard janitorial (or other services). We learn about the house and its maintenance, but also about the potential strangeness in the basement. 
+
+Puzzles around getting your job done, but perhaps also noticing things for later (when you want to learn more about the house and the basement and the project)
+
+2. The basement / the peacocks / the white peacock.
+
+Rising action begins when people go down to the basement and we witness that somehow. A feeling. We are curious but cannot find out what was in there, the wall is close. Driving a desire to know what's happening, searching the house for clues and scraps (using janitorial status to access places)
+
+Puzzles around trying (and failing) to get into the basement? Revisiting locations and puzzles to get at more detailed stuff (a kind of spy game)
+
+3. Evacuation.
+
+Climax being the need to evacuate, time limited tasks?, things to get done for safety.
+
+Puzzles around gathering the peacocks together (there are 8) and not finding the white peacock.
+
+4. Port Sunday.
+
+A kind of post-script element in Port Sunday with a specific cast of characters around that you perhaps talk to "ask X about Y"; with an eye to understanding what's going on at the manor. A boat, some remnant of people from the book.
+
+Puzzles around knowing what to ask of who, the boat?
+
+5. Death.
+
+Maybe a final act return to the manor and some kind of very ambiguous death/dissolution?
+
+--
+
+This is actually something. Beginning by understanding our character through a series/list of tasks they're carrying out. With some indication in overhearing, reading, stuff that suggests tension and strangeness in the House.
+
+## 2025-04-28
+
+### Housekeeping
+
+I'm back. God I'm moving slowly on this, but that's fine. I sent the above stuff to Michael and he was generally interested in some of the ideas being put into place there, though pointed out the Janitor is not the world's most "manor-y" idea. He suggested Custodian as an alternative which is quite good.
+
+On the [Great House](https://en.wikipedia.org/wiki/Great_house) wikipedia page there's a good list of occupations. I was initially drawn to the "[Useful Man](https://en.wikipedia.org/wiki/Useful_man)", but he's kind of nondescript in a bad way. I like the utilitarian nature of such a person, but I found myself thinking about what kind of access he'd have to the manor and grounds and being concerned it might not be extensive. Though even that's potentially interesting in the context of puzzles around getting access to areas you shouldn't be in etc.? (And of course so weird and absurd to be diving this deeply into a story that won't really be there in the final thing? Or will be there in such an odd way.)
+
+The role that's been catching my imagination for real is the [Housekeeper](https://en.wikipedia.org/wiki/Housekeeper_(domestic_worker)). A much more powerful figure, so able to get around and do stuff, but still very much a behind the scenes person which I like. I'll need to read more about the role to understand how this person would interface with a manor, and then especially with a weird contemporary manor with a science experiment running in the basement. I like the symbolism of the name too the *house* *keeper*, one who keeps the house... it has a protective vibe, a power vibe, all kinds of vibes. So without being totally sure I'm for now pretty wedded to this role and my poetry and adjusted accordingly, e.g.:
+
+```
+It was a gift
+Shared in the garden
+With the housekeeper’s silhouette
+Frowning from the six windows
+Across the face of the manor
+```
+
+Again, these poems aren't me trying to write my way into this story, just making friends with the word "housekeeper" and seeing what's in there for me.
+
+### Structures and Acts
+
+Writing those acts in the previous entry was surprisingly (but shouldn't have been surprisingly) powerful in terms of making a story start to groggily rise to its feet? Who knew that the established narrative practices of hundreds of years would be relevant. Also don't *need* that level of structure, but I think it maybe helps make decisions as I go, knowing where I'm at in the story etc.
+
+I need to demark a moment where I don't just keep prepping and never write. At some point the core activity of "writing into the game" has to happen and be fun to do. How much do I need to know? I need to know the basic structure of the story, key beats, the basic stuff about how a manor and its grounds work and look, a map, and then I'm mostly good to go.
+
+Some kind of sense of how the experiment in the basement actually relates to this story, if at all? It doesn't *have* to even be relevant -- in a way I like the idea it wouldn't, this story would then be helpfully about the ways in which life happens around core "dramatic" narratives? Or that you can have more than one story happening co-located that aren't even related? It feels like there's something nice about it.
+
+What about a watchword. What about Shklovsky and making the stone stony? How would my story make the stone stony? Which stone? I mean there's a meta-stone I'm making stony around language and text adventure mechanics and story. But what about the stone inside the meta-stone?
+
+### Housekeeper
+
+Here are some notes and quotes from my deep research on the [Wikipedia page for Housekeeper](https://en.wikipedia.org/wiki/Housekeeper_(domestic_worker)).
+
+> A housekeeper (also called necessary woman)
+
+A necessary woman. Come *on* that's great. I mean in my context.
+
+> responsible for the supervision of a house's cleaning staff
+
+So clearing is a focus here. Coordination mostly for this role but potentially also (fancy?) cleaning roles as well. Cleaning can take you places and cleaning can get you noticing things. Coordinating cleaning can also have you talking to NPCs if that's useful. But I can also imagine in a lower-staffed house (such as this one might be) the Housekeeper takes on more of the actual cleaning stuff.
+
+> The housekeeper is generally hired by and reports to the lady of the house
+
+So a special relationship there, which is to a key character in the book. A chance to at least mention her.
+
+> ... a list of notable housekeepers on tv
+
+Well that's random and not all that helpful. So there's not a *ton* here but there's enough to build up a slightly less non-sense of what the Housekeeper would be doing at the house on your average day, what kinds of problems they might have (going they here mostly as a kind of Entity/Role thing, though obviously a Housekeeper has historically almost always been a woman).
+
+> Responsible for the house and its appearance; in charge of all female servants, but can sometimes be the lead servant in a household. The housekeeper is always addressed as "Mrs", regardless of her marital status
+
+That's the basic capsule of it from the Manor page.
+
+### Manor/Great House
+
+Here are some notes from the [Wikipedia page for Great House](https://en.wikipedia.org/wiki/Great_house).
+
+> There is no precise definition of "great house"
+
+It's another pretty useful power phrase/term? "Great House". It's still making me think about Control in a certain way? Asserting the idea of a powerful entity in/behind/of the architecture; the idea of roles and manifestations of power within those institutions.
+
+I dunno, I think it holds together. It's totally related to how Michael has set things up as well (and I guess he's doing that precisely because it has all these sorts of effects from metaphor and yakka yakka).
+
+> sometimes referred to as "the big house"
+
+I mean. Pretty sweet connections to the Warehouse n'est-ce pas?
+
+> In Jamaica, "great house" is the standard term for the house at the centre of plantation life
+
+> ["manor"] from Latin manere ‘remain’.
+
+Remain is a powerful word.
+
+### Staff
+
+This is from the Manor page as well. These are all people the Housekeeper could potentially interact with. Maybe best if they never interact with anyone else in the house... like just the staff?
+
+> Butler
+> Cook
+> Housekeeper
+
+> Valet
+
+> Companion
+> Lady's maid
+
+> Governess
+> Nanny
+> Tutor
+
+> Chauffeur
+
+> Footman
+> Hall boy
+> Useful man (also called houseman)
+> Boot boy
+> Maid (see Types of maid)
+> Between staff or Between maids (also called Hall girl, particularly in the US)
+> Chambermaid
+> Housemaid
+> Kitchen maid
+> Laundress
+> Nursemaid
+> Scullery maid
+> Still room maid
+> Page
+> Seamstress
+
+> Head gardener
+> Stable master
+> Gamekeeper
+
+> Gardeners
+> Groundskeepers
+> Stablehands
+> Handyman
+
+### Devices
+
+Just thinking in no orderly way now about what kinds of things could motivate action for the Housekeeper - in both the narrative and the actual text adventure senses.
+
+> A to-do list
+
+That's the kind of thing you could have at the beginning that would motivate things you need to do right from the get-go and that would lead you to appropriate places, events, items, puzzles.
+
+But even in saying the word "appropriate" I'm thinking... well what is the *overall* point here. In my five act structure above I'm not clear that I know what the arc relates to or tells? What's the underlying thought of all of this within the game itself? It's not just solve some puzzles and get somewhere.
+
+Could I turn to fairytale level motivates. Agential stuff? Greimas? Propp?
+
+What is that stony stone?
+
+### The acts again
+
+At what point to I break this out into a new document?
+
+Now.
+
+### Things I really need:
+
+- A map
+- Relevant items
+- Who might be in the game
+- Classic housekeeper tasks
