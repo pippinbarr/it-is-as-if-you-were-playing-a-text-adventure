@@ -9,20 +9,32 @@
     "story": [
         {
             "location": "campfire",
-            "preaction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo urna. Phasellus ac nibh nec turpis vulputate facilisis id non mi. Sed at diam vel neque condimentum consectetur. In sed nibh nec ipsum vehicula pulvinar vel ut ex. Pellentesque leo libero, mollis sit amet vestibulum eget, semper sed orci. Morbi enim augue, lobortis eu augue id, egestas ultricies nunc. Curabitur ultrices malesuada sem. Praesent sodales consequat justo, eu accumsan lorem congue in. Pellentesque fringilla urna lacus, vel laoreet elit rutrum vel. Nulla vel nisi lacus.",
+            "preaction": "Breathe in slowly, then relax.",
+            "command": "look",
+            "points": 0
+        },
+        {
+            "location": "campfire",
+            "preaction": "Raise an eyebrow.",
             "command": "get dog",
             "points": 1
         },
         {
             "location": "hell",
-            "preaction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo urna. Phasellus ac nibh nec turpis vulputate facilisis id non mi. Sed at diam vel neque condimentum consectetur. In sed nibh nec ipsum vehicula pulvinar vel ut ex. Pellentesque leo libero, mollis sit amet vestibulum eget, semper sed orci. Morbi enim augue, lobortis eu augue id, egestas ultricies nunc. Curabitur ultrices malesuada sem. Praesent sodales consequat justo, eu accumsan lorem congue in. Pellentesque fringilla urna lacus, vel laoreet elit rutrum vel. Nulla vel nisi lacus.",
+            "preaction": "Chuckle and shake your head.",
             "command": "look",
             "points": 0
         },
         {
             "location": "hell",
-            "preaction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae justo urna. Phasellus ac nibh nec turpis vulputate facilisis id non mi. Sed at diam vel neque condimentum consectetur. In sed nibh nec ipsum vehicula pulvinar vel ut ex. Pellentesque leo libero, mollis sit amet vestibulum eget, semper sed orci. Morbi enim augue, lobortis eu augue id, egestas ultricies nunc. Curabitur ultrices malesuada sem. Praesent sodales consequat justo, eu accumsan lorem congue in. Pellentesque fringilla urna lacus, vel laoreet elit rutrum vel. Nulla vel nisi lacus.",
+            "preaction": "Nod confidently.",
             "command": "get trident",
+            "points": 2
+        },
+        {
+            "location": "heck",
+            "preaction": "This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen. This is the text the scrolls off the screen.",
+            "command": "ascend",
             "points": 2
         }
     ]

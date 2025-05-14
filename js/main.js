@@ -67,7 +67,10 @@ function nextInput() {
     // Check if we've finished
     if (index === story.length) {
         // Some kind of ending 
-        addP("<strong>The End</strong>");
+        const endElement = addP("<strong>The End</strong>");
+        endElement.focus();
+
+        window.scrollTo(0, document.body.scrollHeight);
     }
     else {
         displayState();
@@ -108,6 +111,8 @@ function addP(html, style) {
     if (style) {
         p.classList.add(style);
     }
+
+    return p;
 }
 
 /**
@@ -117,13 +122,15 @@ function addP(html, style) {
 function processInput(event) {
     // Did they just hit enter?
     if (event.keyCode === 13) {
+        const input = inputElement.value.toLowerCase();
+
         addP(`> <strong>${inputElement.value}</strong>`);
 
         // Clear the input
         clearInput();
 
         // Check if they typed the right thing...
-        if (inputElement.value.toLowerCase() === story[index].command) {
+        if (input === story[index].command) {
             // Yes? Add the points
             points += story[index].points || 0;
             pointsElement.textContent = points;
@@ -136,7 +143,6 @@ function processInput(event) {
             // Prompt the command
             const command = `${meta.typo}. Type "${story[index].command}" and press ENTER.`;
             addP(command);
-
         }
     }
 }
