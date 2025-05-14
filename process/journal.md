@@ -418,3 +418,27 @@ Now.
 - Relevant items
 - Who might be in the game
 - Classic housekeeper tasks
+
+## 2025-05-14
+
+Why did I decide to have `kick dog` be the sole instruction in the game? It has already come up since being at AMAZE and I just end up feeling pretty awkward about it. Why did I choose that? I think it's because it seemed dramatic and... well I might be post hoc justifying here, maybe it's that it's a bit like that thing of compelling bad behaviour in... no this is all post hoc. Why did I do it, WHY?
+
+Hey, actually though there are more options than `kick dog` in the JSON so why aren't they showing up? Not that it matters, but it's annoying. Let me just delete it. You should not kick dogs. Even in text adventures that are retellings of novellas without any descriptive text.
+
+Looks like it only displays the first command, and then won't interpret the input as being correct. Let me fix that separately rather than include it with this journal commit?
+
+--
+
+Anyway, my main thought this morning, just before AMAZE kicks off in earnest, is how *boring* it may look to see me working on this game? This game in particular but maybe any game? Because it's so sloooooow?
+
+On the other hand I think this game is going to require a *ton* of thinking and writing, so maybe that's not so bad. But of course the thought of typing in public and writing my journal in public is weird... no so much that people would read it, but that it might become (even more?) performative than usual. Or self-conscious, etc.
+
+But that's alright.
+
+--
+
+And the other thing is just... well what do I want to kind of get *done* while I'm here? Can I use it as an impetus to really make some stuff happen? The most obvious thing would be to play around with writing the actual script (after fixing it) so that the playable build does something more than be a placeholder. And I think that exploration, even if I ended up deleting the whole thing, would be worth it.
+
+So I suppose that's my target. I have the Housekeeper role in my mind. I have my five act structure. I have a map of a manor. Let's explore and see what happens???
+
+(Weirdly I could even *include* descriptive... no, that's me pandering. No pandering.)
