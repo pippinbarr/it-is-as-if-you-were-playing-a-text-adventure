@@ -108,3 +108,67 @@ Stealing this from the original just because Death is such a powerful ending, bu
 Most obviously, as above with the Janitor Run we could have the Housekeeper return or try to return to the manor. Perhaps bear witness to one last thing.
 
 This depends on the Stony Stone again.
+
+## 2025-05-15
+
+Let's sort of try to go through the structure again, and try to figure out what's missing (though I know a big part of it is the architectural/floorplan kind of part of things).
+
+1. Housekeeper
+
+Wakes up in the morning in bed. (Is this too much of a cliche, or is this actually a useful device for orienting the player?)
+
+> Get up. Get dressed. Gather items from the bedroom. Most obviously a set of keys. 
+
+What else would a housekeeper carry around? We're imagining this Housekeeper as live-in but not having a whole shit ton of staff they manage, so they'd be more engaged in practical tasks rather than delegating.
+
+> Breakfast?
+
+This feels very plot-irrelevant, but it's also something a person would actually do. Maybe you can be distracted by stuff and not end up eating breakfast? But it's weird not to eat breakfast. But then it's weird not to go wash your face and stuff, how much of this deeply prosaic stuff about being a Housekeeper makes sense? There's a thing here about how the domestic setting (and the domestic labour setting in particular?) really foregrounds things that we think of as profoundly boring or just unseen? Is there a way to think about making that stone stony? A kind of what? Loving work? But that just feels like a gross repetition of fantasies from novels about happy servants and so on, so perhaps not. Maybe the stoniness would be more about a kind of puncturing of that, or a different angle - not necessarily total hatred, but a kind of highly intelligent thinking about it? And. I'm spiraling a bit though. Maybe just...
+
+Actually also though: in an adventure game you don't necessarily do *every available action*, there's of course a critical path but as you can see in walkthroughs it's not necessarily the case that it's super long and details - a lot of it is just figuring out what to do. So I could afford to be a bit more lean right? So maybe that's something. But also
+
+> Open the door, go to the Breakfast room
+
+The Butler has already made breakfast so you can just sit and eat - I'm very aware of how uncomfortable I am with the Housekeeper being a woman and needing to make breakfast for a man... it could be a different kind of household where the Housekeeper is a man and the Butler a woman, or any other kind of configuration, don't have to have genders - but it will be pretty hard to communicate that so safer to assume assumptions and focus on what I can do through action)
+
+> Sit at the table. Breakfast with the Butler. Talk to the Butler about things. Look at the Butler etc.
+
+That way we can pre-figuring meeting the Butler again later on when it is potentially *them* who reveals directly or indirectly the basement stuff... a whole kind of red-string moment? Maybe some conversation along the lines of "ask butler about x" here is useful
+
+[There's a sense here for me of scripting a film - text adventure inputs as the core directions of a film script - very basic...]
+
+> Start on to-do list
+
+So there's a kind of "breakfast first" directive implied here... because otherwise you can't meet the Butler to talk about stuff and prefigure him or his room etc... maybe he can say some saucy/secretive things.
+
+The to-do list can just be three things for the start let's say? Maybe the final thing requires something from the Butler so that you end up checking for him in his room. This can all just happen in a relatively short period in the morning so we don't have to worry to much about house rhythms? Maybe just before breakfast for the family which would presumably be later that the servants' breakfast?
+
+So the to-do list would involve going to a couple of different rooms? Although if the family is still maybe just getting up etc. it may not be possible to go into their rooms, but maybe that's what we do later on actually, so that could work. So that you can go into their rooms to find out about stuff?
+
+> Setting out breakfast stuff for the family (make tea, toast, fruit... I don't know what the fuck the owners of a Manor house would eat? I don't need to keep setting this in the deep past... it's a contemporary kind of a thing so the breakfast can be correspondingly newer... Soylent! Ha, not really... but actually maybe a shake of some kind makes sense...) So actually
+
+> Making a breakfast smoothie and leaving it somewhere (scintillanting activity -- is it possible to punch this kind of thing up? Or it's just a few commands and no huge deal?)
+
+> Checking the fridge/pantry for things that might be missing?
+> Doing the accounts (unclear how to represent that in text adventuring?)
+> I mean, dusting is always fun... maybe there's a room that's on the rota for being dusted/attended to? Maybe some special object(s)
+> Watering plants (this one is actually nice, I think this one can work because it's multi-room, caring, physical, sensory...)
+> And then something you end up needing the Butler for... maybe you notice something he would normally need to attend to so you go to fetch him...?
+
+> Going to the Butler's room (to find him)
+
+So you obviously have to find the room, but that's fine you would know and we can just go there with the command.
+
+> Discovering he's not there but seeing something out of place that makes you pause and linger? Really though a game player needs to excuse to linger in any space, they are always invited... rude
+
+> Studying the thing... could we be as hilariously obvious as to have a corkboard and red string that he would normally hide but has had to leave out because... something, he got called away
+
+And that would be the end of that sequence (will the game itself have these act breaks? I think it won't - but perhaps it would be nice if it did? Colour change? Bit cheeky). So then you're on to act 2 and actively thinking about and ultimately going down the stairs to the basement...
+
+2. The Basement
+
+3. Evacuation
+
+4. Port Sunday
+
+5. The White Peacock
