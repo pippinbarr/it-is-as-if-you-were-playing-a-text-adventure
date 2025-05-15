@@ -16,6 +16,8 @@ let story = undefined;
 let index = -1;
 // For tracking points, seems funny
 let points = 0;
+// Current location
+let currentLocation = undefined;
 
 // Elements from the page itself
 const historyElement = document.getElementById("history");
@@ -48,7 +50,10 @@ function start() {
     inputElement.addEventListener("keydown", processInput);
 
     // Set the starting location
-    locationElement.textContent = meta.startLocation;
+    currentLocation = meta["start-location"];
+    locationElement.textContent = meta["start-location"];
+
+    console.log(currentLocation);
 
     // Get that cursor blinking!
     inputElement.focus();
@@ -85,9 +90,15 @@ function displayState() {
     inputElement.value = "";
 
     // Move if it was a move
-    locationElement.textContent = story[index].location;
+    if (story[index].location) {
+        currentLocation = story[index].location;
+    }
+    locationElement.textContent = currentLocation;
 
-    addP(story[index].preaction, "preaction");
+
+    if (story[index].preaction) {
+        addP(story[index].preaction, "preaction");
+    }
 
     // Prompt the command
     const command = `Type "${story[index].command}" and press ENTER.`;
